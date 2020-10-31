@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class GeradorCitacao {
@@ -23,7 +21,7 @@ public class GeradorCitacao {
     private static void imprimeCitacao(String[] nomes) {
         String primeiroNome = nomes[0];
         String ultimoNome = nomes[nomes.length - 1];
-        System.out.print("SUA CITAÇÃO É: "+ ultimoNome.toUpperCase() +
+        System.out.print("SUA CITAÇÃO É: " + ultimoNome.toUpperCase() +
                 ", ");
         for (int i = 0; i < (nomes.length) - 1; i++) {
             System.out.print(nomes[i].substring(0, 1).toUpperCase() + ". ");
